@@ -18,6 +18,13 @@ Apenas um repositório teste para a aula de terça de Gestão e qualidade de sof
         <sub>Anderson Corrêa</sub>
       </a>
     </td>
+  </tr>
+</table>
+
+# Professor / Orientador
+
+<table>
+  <tr>
     <td align="center">
       <a href="https://github.com/RandMelville">
         <img src="https://avatars.githubusercontent.com/u/16937328?v=4" width="115"><br>

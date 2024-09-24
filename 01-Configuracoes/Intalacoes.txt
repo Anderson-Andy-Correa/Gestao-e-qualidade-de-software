@@ -1,0 +1,4 @@
+Instalado o Node.js e o Cypress
+
+"https://nodejs.org/pt"
+"https://www.cypress.io/"

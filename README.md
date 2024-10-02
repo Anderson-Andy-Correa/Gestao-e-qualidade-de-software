@@ -1,14 +1,21 @@
-<h1>Gestão e qualidade de software</h1>
+# Gestão e qualidade de software
 
-<h2>🔖 Sobre</h2>
-
-Apenas um repositório teste para a aula de terça de Gestão e qualidade de software do professor Randerson.
+## 🔍 Sobre
+Repositório para o desenvolvimento de testes usando várias ferramentas para a aula de Gestão e qualidade de software.
 
 ## 🚀 Tecnologias
+<h2 align="center"> 
+  <img src="https://img.shields.io/badge/Cypress-388B6F?style=for-the-badge&logo=Cypress&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Robot Framework-000000?style=for-the-badge&logo=RobotFramework&logoColor=white"/>
+</h2>
 
-**Em construção**
+## 📘 Aulas
+- [Cypress](https://github.com/Anderson-Andy-Correa/Gestao-e-qualidade-de-software/tree/main/01-Configuracoes_e_Cypress) - (2024.09.24)
+- [Robot Framework](https://github.com/Anderson-Andy-Correa/Gestao-e-qualidade-de-software/tree/main/02-Robot_Framework) - (2024.10.01)
 
-# Time
+---
+
+# 👨‍💻 Time
 
 <table>
   <tr>
@@ -18,10 +25,13 @@ Apenas um repositório teste para a aula de terça de Gestão e qualidade de sof
         <sub>Anderson Corrêa</sub>
       </a>
     </td>
+    <!-- Adicione outros membros aqui -->
   </tr>
 </table>
 
-# Professor / Orientador
+---
+
+# 👨‍🎓 Professor / Orientador
 
 <table>
   <tr>
@@ -33,4 +43,3 @@ Apenas um repositório teste para a aula de terça de Gestão e qualidade de sof
     </td>
   </tr>
 </table>
-

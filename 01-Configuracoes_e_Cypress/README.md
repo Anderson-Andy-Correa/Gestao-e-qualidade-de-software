@@ -1,7 +1,8 @@
 # Cypress
 
 ## 🔍 Sobre
-    Cypress é uma poderosa ferramenta de automação de testes end-to-end projetada especificamente para aplicações web. Sua abordagem intuitiva permite que desenvolvedores escrevam testes de maneira eficiente, utilizando uma sintaxe clara e fácil de entender. Além disso, oferece uma interface visual que facilita a depuração, possibilitando a execução em tempo real dos testes e fornecendo relatórios detalhados sobre os resultados. Com Cypress, é possível simular interações reais do usuário, validar funcionalidades da aplicação e garantir que tudo opere conforme o esperado.
+
+Cypress é uma poderosa ferramenta de automação de testes end-to-end projetada especificamente para aplicações web. Sua abordagem intuitiva permite que desenvolvedores escrevam testes de maneira eficiente, utilizando uma sintaxe clara e fácil de entender. Além disso, oferece uma interface visual que facilita a depuração, possibilitando a execução em tempo real dos testes e fornecendo relatórios detalhados sobre os resultados. Com Cypress, é possível simular interações reais do usuário, validar funcionalidades da aplicação e garantir que tudo opere conforme o esperado.
 
 ## 📘 Aula
 Nesta aula, exploramos as noções básicas da ferramenta e configuramos o ambiente inicial para testes. 
@@ -20,4 +21,4 @@ Ao final de cada teste, asseguramo-nos de que os resultados correspondem às exp
 
 ## ✔ Conclusões
 
-    Após a execução dos testes, ficou evidente que o sistema opera conforme projetado. Todos os testes foram finalizados com sucesso, confirmando que as funcionalidades básicas de login e validação de campos estão funcionando corretamente. Isso valida a eficácia do Cypress como uma ferramenta de automação de testes, facilitando o processo de verificação de qualidade do software.
+Após a execução dos testes, ficou evidente que o sistema opera conforme projetado. Todos os testes foram finalizados com sucesso, confirmando que as funcionalidades básicas de login e validação de campos estão funcionando corretamente. Isso valida a eficácia do Cypress como uma ferramenta de automação de testes, facilitando o processo de verificação de qualidade do software.

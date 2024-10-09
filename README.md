@@ -4,15 +4,23 @@
 Repositório para o desenvolvimento de testes usando várias ferramentas para a aula de Gestão e qualidade de software.
 
 ## 🚀 Tecnologias
-<h2 align="center"> 
+
+<h3 align="center"> 
+  <img src="https://img.shields.io/badge/Testing-ff6163?style=for-the-badge&logo=Testing&logoColor=white"/>
   <img src="https://img.shields.io/badge/Cypress-388B6F?style=for-the-badge&logo=Cypress&logoColor=white"/>
   <img src="https://img.shields.io/badge/Robot Framework-000000?style=for-the-badge&logo=RobotFramework&logoColor=white"/>
-</h2>
+</h3>
+
+<h3 align="center"> 
+  <img src="https://img.shields.io/badge/Database-172c73?style=for-the-badge&logo=Testing&logoColor=white"/>
+  <img src="https://img.shields.io/badge/PostgreSQL-2f6792?style=for-the-badge&logo=PostgreSQL&logoColor=white"/>
+  <img src="https://img.shields.io/badge/-MySQL-4a7da4?style=for-the-badge&logo=MySQL&logoColor=white"/>
+</h3>
 
 ## 📘 Aulas
 - [Cypress](https://github.com/Anderson-Andy-Correa/Gestao-e-qualidade-de-software/tree/main/01-Configuracoes_e_Cypress) - (2024.09.24)
 - [Robot Framework](https://github.com/Anderson-Andy-Correa/Gestao-e-qualidade-de-software/tree/main/02-Robot_Framework) - (2024.10.01)
-
+- [Data Base](https://github.com/Anderson-Andy-Correa/Gestao-e-qualidade-de-software/tree/main/03-Banco_de_Dados) - (2024.10.08 a 2024.10.14)
 ---
 
 # 👨‍💻 Time

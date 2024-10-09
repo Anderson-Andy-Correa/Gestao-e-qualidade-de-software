@@ -14,14 +14,16 @@ No arquivo [teste_pesquisa_amazon.robot](teste_pesquisa_amazon.robot), realizamo
 
 ## 📝 Testes
 
-Os testes automatizados foram realizados no site do repositório de testes [the-internet](https://the-internet.herokuapp.com/login). As seguintes automações foram implementadas:
+Os testes automatizados foram realizados no site da [amazon](https://www.amazon.com.br). A seguintes automação foi implementada:
 
-1. **Login com credenciais corretas**: Validamos que o sistema permite acesso ao usuário quando informações válidas são fornecidas.
-2. **Login com credenciais erradas**: Verificamos que o sistema rejeita o acesso e exibe a mensagem de erro apropriada quando credenciais inválidas são inseridas.
-3. **Validação de Campos Obrigatórios**: Confirmamos que campos obrigatórios (como nome de usuário e senha) não podem ser deixados em branco, assegurando que o sistema não permita a submissão do formulário sem essas informações.
+1. **Fazer pesquisa de um determinado produto**: Entrar no site da Amazon, pesquisar um determinado produto e verificar se realmente os resultados fornecidos consistem no que foi solicitado.
 
-Ao final de cada teste, asseguramo-nos de que os resultados correspondem às expectativas definidas, registrando qualquer discrepância que possa ocorrer.
+Ao final do teste, asseguramo-nos de que os resultados correspondem às expectativas definidas, registrando qualquer discrepância que possa ocorrer.
+
+No [exercício proposto](https://github.com/Anderson-Andy-Correa/Gestao-e-qualidade-de-software/blob/main/02-Robot_Framework/2-Exercicio/ExercicioRobot_20241001190325.pdf) foi solicitado para alterassemos o script para deixar mais customizado a busca, gerando o seguinte [relatório](https://github.com/Anderson-Andy-Correa/Gestao-e-qualidade-de-software/blob/main/02-Robot_Framework/2-Exercicio/report.html) e mostrando a verificação bem sucedida dos testes.
+
+![alt text](https://github.com/Anderson-Andy-Correa/Gestao-e-qualidade-de-software/blob/main/02-Robot_Framework/2-Exercicio/image.png)
 
 ## ✔ Conclusões
 
-Após a execução dos testes, ficou evidente que o sistema opera conforme projetado. Todos os testes foram finalizados com sucesso, confirmando que as funcionalidades básicas de login e validação de campos estão funcionando corretamente. Isso valida a eficácia do Cypress como uma ferramenta de automação de testes, facilitando o processo de verificação de qualidade do software.
+Após a execução dos testes, ficou evidente que o sistema opera conforme projetado. Todos os testes foram finalizados com sucesso, confirmando que a funcionalidade básicas de pesquisa está funcionando corretamente. Isso valida a eficácia do Robot como uma ferramenta de automação de testes, facilitando o processo de verificação de qualidade do software.

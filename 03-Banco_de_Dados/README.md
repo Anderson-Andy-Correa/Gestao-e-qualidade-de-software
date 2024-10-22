@@ -23,7 +23,7 @@ Foi dado então um [exercício](./2-Exercicio_Apresentacao/InstrucoesDesafioBD_2
 ## 📝 Exercício proposto
 
 <div align="center" style="text-align: center;">
-    <img src="https://readme-typing-svg.herokuapp.com/demo/?font=Comic+Neue&size=25&duration=3000&pause=250&color=2B94C3&center=true&vCenter=true&lines=INTRODU%C3%87%C3%83O+AO+DESAFIO;PRIMEIRA+ETAPA" alt="Typing SVG")/>
+    <img src="https://readme-typing-svg.herokuapp.com/?font=Comic+Neue&size=25&duration=3000&pause=250&color=2B94C3&center=true&vCenter=true&lines=INTRODU%C3%87%C3%83O+AO+DESAFIO;PRIMEIRA+ETAPA" alt="Typing SVG")/>
 </div>
 
 ![img desafio](./2-Exercicio_Apresentacao/Apresentacao/Apresentacao_Desafio.png)
@@ -47,7 +47,7 @@ Para testar mais conhecimentos, decidimos tentar usar a ferramenta [Supabase](ht
 ![img modelo Supabase](./2-Exercicio_Apresentacao/Modelos/Modelo_Físico_Supabase.png)
 
 <div align="center" style="text-align: center;">
-    <img src="https://readme-typing-svg.herokuapp.com/demo/?font=Comic+Neue&size=25&duration=3000&pause=250&color=21C30D&center=true&vCenter=true&lines=EXTRA;SEGUNDA+ETAPA" alt="Typing SVG")/>
+    <img src="https://readme-typing-svg.herokuapp.com/?font=Comic+Neue&size=25&duration=3000&pause=250&color=21C30D&center=true&vCenter=true&lines=EXTRA;SEGUNDA+ETAPA" alt="Typing SVG")/>
 </div>
 
 Como sugestões de melhorias ao banco proposto, temos mais alguns pontos:

@@ -1,5 +1,6 @@
 describe('Navegação pela página', () => {
-  
+
+  // Visitar a mesma página em todo teste
   beforeEach(() => {
     cy.visit('https://automationexercise.com/')
   })
@@ -21,6 +22,7 @@ describe('Navegação pela página', () => {
     cy.get('#form > div > div > div.col-sm-4.col-sm-offset-1 > div > form > p').should('contain', 'incorrect');
   })
 
+  // Seguindo todos os passos no processo de checkout até a compra
   it('Processo de checkout', () => {
     cy.logarNaConta('usercypress@mail.com', 'cypress')
     cy.pesquisarProduto('T-shirts')

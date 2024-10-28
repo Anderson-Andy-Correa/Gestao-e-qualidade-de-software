@@ -18,6 +18,9 @@ Repositório para o desenvolvimento de testes usando várias ferramentas para a 
 </h3>
 
 ## 📘 Aulas
+
+Selecione uma das aulas para ver a explicação mais detalhada sobre cada uma.
+
 - [Cypress](./01-Configuracoes_e_Cypress) - (2024.09.24)
 - [Robot Framework](./02-Robot_Framework) - (2024.10.01)
 - [Data Base](./03-Banco_de_Dados) - (2024.10.08 e 2024.10.29)

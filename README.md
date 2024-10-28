@@ -18,10 +18,10 @@ Repositório para o desenvolvimento de testes usando várias ferramentas para a 
 </h3>
 
 ## 📘 Aulas
-- [Cypress](./tree/main/01-Configuracoes_e_Cypress) - (2024.09.24)
-- [Robot Framework](./tree/main/02-Robot_Framework) - (2024.10.01)
-- [Data Base](./tree/main/03-Banco_de_Dados) - (2024.10.08 e 2024.10.29)
-- [Automação de Testes](./tree/main/04-Automacao_de_Testes_e_IA) - (2024.10.22)
+- [Cypress](./01-Configuracoes_e_Cypress) - (2024.09.24)
+- [Robot Framework](./02-Robot_Framework) - (2024.10.01)
+- [Data Base](./03-Banco_de_Dados) - (2024.10.08 e 2024.10.29)
+- [Automação de Testes](./04-Automacao_de_Testes_e_IA) - (2024.10.22)
 ---
 
 # 👨‍💻 Time

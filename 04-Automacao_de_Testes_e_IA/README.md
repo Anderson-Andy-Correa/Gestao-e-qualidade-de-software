@@ -63,7 +63,7 @@ Para poderes testar as funcionabilidades do desafio, é necessário ter algunas 
 
 Basta acessar o site oficial e baixar a versão mais recente, neste caso, estou usando a v20.18.0.
 
-![img site Node](./blob/main/04-Automacao_de_Testes_e_IA\Apresentacao/1-Node.js.png)
+![img site Node](./04-Automacao_de_Testes_e_IA\Apresentacao/1-Node.js.png)
 
 <div align="center" style="text-align: center;">
     <img src="https://readme-typing-svg.herokuapp.com/?font=Comic+Neue&size=25&duration=3000&pause=250&color=2B94C3&center=true&vCenter=true&lines=RODANDO+A+APLICA%C3%87%C3%83O;" alt="Typing SVG")/>
@@ -83,17 +83,17 @@ npx cypress open
 
 Deve abrir a página inicial do Cypress, então selecione a opção E2E Testing,conforme a imagem.
 
-![img Tela Inicial Cypress](./blob/main/04-Automacao_de_Testes_e_IA\Apresentacao/2-Abertura_cypress.png)
+![img Tela Inicial Cypress](./04-Automacao_de_Testes_e_IA\Apresentacao/2-Abertura_cypress.png)
 
 Escolha o navegador de sua preferência e clique no botão marcado.
 
-![img Start Testing](./blob/main/04-Automacao_de_Testes_e_IA\Apresentacao/3-Selecao_Navegador.png)
+![img Start Testing](./04-Automacao_de_Testes_e_IA\Apresentacao/3-Selecao_Navegador.png)
 
 A prágina principal do projeto deve abrir e já aparecer a Spec parte01.cy.js, clique nele e deve começar a mostrar os testes em execução.
 
-![img Specs](./blob/main/04-Automacao_de_Testes_e_IA\Apresentacao/4-Pagina_principa_cypress.png)
+![img Specs](./04-Automacao_de_Testes_e_IA\Apresentacao/4-Pagina_principa_cypress.png)
 
-![img Rodando testes](./blob/main/04-Automacao_de_Testes_e_IA\Apresentacao/5-Rodando_testes.png)
+![img Rodando testes](./04-Automacao_de_Testes_e_IA\Apresentacao/5-Rodando_testes.png)
 
 <div align="center" style="text-align: center;">
     <img src="https://readme-typing-svg.herokuapp.com/?font=Comic+Neue&size=25&duration=3000&pause=250&color=2B94C3&center=true&vCenter=true&lines=RESOLU%C3%87%C3%83O+DO+DESAFIO;" alt="Typing SVG")/>
@@ -101,7 +101,7 @@ A prágina principal do projeto deve abrir e já aparecer a Spec parte01.cy.js, 
 
 * Utilize o site de e-commerce para testes: https://automationexercise.com/.
 
-Para melhor reultilização do código, preferi colocar no arquivo [commands.js](./blob/main/04-Automacao_de_Testes_e_IA/cypress/support/commands.js)
+Para melhor reultilização do código, preferi colocar no arquivo [commands.js](./04-Automacao_de_Testes_e_IA/cypress/support/commands.js)
 ~~~javascript
 Cypress.Commands.add('pesquisarProduto', (nomeProduto) => {
     cy.get('#header > div > div > div > div.col-sm-8 > div > ul > li:nth-child(2) > a').click()

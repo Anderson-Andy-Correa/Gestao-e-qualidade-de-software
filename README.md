@@ -1,4 +1,4 @@
-# Gestão e qualidade de software
+![img Tutulo](https://capsule-render.vercel.app/api?type=waving&height=300&color=0:00FFB0,100:a82da8&text=Gestão%20e%20qualidade%20de%20software&textBg=false&fontColor=FFFFFF&fontSize=50&animation=twinkling&stroke=0000FF)
 
 ## 🔍 Sobre
 Repositório para o desenvolvimento de testes usando várias ferramentas para a aula de Gestão e qualidade de software.
@@ -18,9 +18,10 @@ Repositório para o desenvolvimento de testes usando várias ferramentas para a 
 </h3>
 
 ## 📘 Aulas
-- [Cypress](https://github.com/Anderson-Andy-Correa/Gestao-e-qualidade-de-software/tree/main/01-Configuracoes_e_Cypress) - (2024.09.24)
-- [Robot Framework](https://github.com/Anderson-Andy-Correa/Gestao-e-qualidade-de-software/tree/main/02-Robot_Framework) - (2024.10.01)
-- [Data Base](https://github.com/Anderson-Andy-Correa/Gestao-e-qualidade-de-software/tree/main/03-Banco_de_Dados) - (2024.10.08 a 2024.10.22)
+- [Cypress](./tree/main/01-Configuracoes_e_Cypress) - (2024.09.24)
+- [Robot Framework](./tree/main/02-Robot_Framework) - (2024.10.01)
+- [Data Base](./tree/main/03-Banco_de_Dados) - (2024.10.08 e 2024.10.29)
+- [Automação de Testes](./tree/main/04-Automacao_de_Testes_e_IA) - (2024.10.22)
 ---
 
 # 👨‍💻 Time

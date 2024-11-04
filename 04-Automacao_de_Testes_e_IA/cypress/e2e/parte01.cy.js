@@ -12,27 +12,27 @@ describe('Navegação pela página', () => {
 
   it('Efetuar Login com credencias certas', () => {
     cy.logarNaConta('usercypress@mail.com', 'cypress')
-    cy.get('#header > div > div > div > div.col-sm-8 > div > ul > li:nth-child(4) > a').should('contain', 'Logout');
+    cy.get('a[href]').should('contain', 'Logout');
   })
   
 
   it('Efetuar Login com credencias incorretas', () => {
     cy.logarNaConta('user@mail.com', 'user')
     cy.url().should('include', '/login');
-    cy.get('#form > div > div > div.col-sm-4.col-sm-offset-1 > div > form > p').should('contain', 'incorrect');
+    cy.get('p').should('contain', 'incorrect');
   })
 
   // Seguindo todos os passos no processo de checkout até a compra
   it('Processo de checkout', () => {
     cy.logarNaConta('usercypress@mail.com', 'cypress')
     cy.pesquisarProduto('T-shirts')
-    cy.get('body > section > div > div > div.col-sm-9.padding-right > div.product-details > div.col-sm-7 > div > span > button').click()
-    cy.get('#cartModal > div > div > div.modal-body > p:nth-child(2) > a > u').click()
-    cy.get('#do_action > div.container > div > div > a').click()
-    cy.get('#ordermsg > textarea').type('Deixa o like Família!')
-    cy.get('#cart_items > div > div:nth-child(7) > a').click()
+    cy.get('button[class="btn btn-default cart"]').click()
+    cy.get('div[id="cartModal"] a[href="/view_cart"]').click()
+    cy.get('a[class="btn btn-default check_out"]').click()
+    cy.get('textarea[name="message"]').type('Deixa o like Família!')
+    cy.get('a[href="/payment"]').click()
     cy.preencherFormularioPagamento('Deixa', 'o', 'like', 'familia', '!')
-    cy.get('#submit').click()
+    cy.get('button[id="submit"]').click()
     cy.url().should('include', '/payment_done')
   }) 
 })

@@ -163,9 +163,10 @@ Para melhor reutilização do código, preferi colocar no arquivo [commands.js](
 ~~~javascript
 Cypress.Commands.add('pesquisarProduto', (nomeProduto) => {
     cy.get('a[href="/products"]').click()
+    cy.url().should('include', '/products')
     cy.get('input[id="search_product"]').type(nomeProduto)
     cy.get('button[id="submit_search"]').click()
-    cy.get('a[href="/product_details/30"]').click()
+    cy.get('a[href*="/product_details"]').first().click() // Pega o primeiro link que contenha "product_details"
 })
 ~~~
 
@@ -180,6 +181,7 @@ describe('Navegação pela página', () => {
 
   it('Busca de produtos', () => {
     cy.pesquisarProduto('T-shirts')
+    cy.url().should('include', '/product_details')
   })
 
 })

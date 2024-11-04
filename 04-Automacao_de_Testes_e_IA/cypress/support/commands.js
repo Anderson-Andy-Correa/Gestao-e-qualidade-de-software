@@ -12,10 +12,12 @@
 // Comando customizado  para pesquisar um certo tipo de produto nos filtros de produto
 Cypress.Commands.add('pesquisarProduto', (nomeProduto) => {
     cy.get('a[href="/products"]').click()
+    cy.url().should('include', '/products')
     cy.get('input[id="search_product"]').type(nomeProduto)
     cy.get('button[id="submit_search"]').click()
-    cy.get('a[href="/product_details/30"]').click()
+    cy.get('a[href*="/product_details"]').first().click() // Pega o primeiro link que contenha "product_details"
 })
+
 
 // Comando customizado para logar na conta usando um login e senha
 Cypress.Commands.add('logarNaConta', (email, senha) => {

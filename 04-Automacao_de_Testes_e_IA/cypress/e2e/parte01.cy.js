@@ -8,6 +8,7 @@ describe('Navegação pela página', () => {
   
   it('Busca de produtos', () => {
     cy.pesquisarProduto('T-shirts')
+    cy.url().should('include', '/product_details')
   })
 
   it('Efetuar Login com credencias certas', () => {

@@ -131,7 +131,9 @@ A página principal do projeto deve abrir e já aparecer a Spec parte01.cy.js, c
 
 > a. Cenário 1: Acesse a página principal e realize uma busca por um produto qualquer.
 
-Para melhor reutilização do código, preferi colocar no arquivo [commands.js](./cypress/support/commands.js), comandos customizados para poder utilizar mais para frente no projeto. Inicialmente para resolver esse primeiro desafio, salvei esse procedimento que pesquisa um determianado produto seguindo a estrutura do site.
+Para melhor reutilização do código, preferi colocar no arquivo [commands.js](./cypress/support/commands.js), comandos customizados para poder utilizar mais para frente no projeto. Inicialmente para resolver esse primeiro desafio, salvei esse procedimento que pesquisa um determianado produto seguindo a estrutura do site, conforme a imagem de exemplo abaixo.
+
+![img Rodando testes](./Apresentacao/6-Exemplo_Caminho_Elemento_Pagina.png)
 
 ~~~javascript
 Cypress.Commands.add('pesquisarProduto', (nomeProduto) => {

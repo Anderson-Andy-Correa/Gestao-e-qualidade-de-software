@@ -1,4 +1,4 @@
-![img Titulo](https://capsule-render.vercel.app/api?type=waving&height=250&&color=0:00FFF0,100:a82da8&text=Automação%20de%20Testes&textBg=false&fontColor=FFFFFF&fontSize=50&animation=fadeIn)
+# ![img Titulo](https://capsule-render.vercel.app/api?type=waving&height=250&&color=0:00FFF0,100:a82da8&text=Automação%20de%20Testes&textBg=false&fontColor=FFFFFF&fontSize=50&animation=fadeIn)
 
 ## 🔍 Sobre
 
@@ -21,10 +21,12 @@ Foi nos dado um [desafio](./IAAutomacao_20241022195733.pdf) de navegar pelo site
 ## 📝 Exercício proposto
 
 <div align="center" style="text-align: center;">
-    <img src="https://readme-typing-svg.herokuapp.com/?font=Comic+Neue&size=25&duration=3000&pause=250&color=2B94C3&center=true&vCenter=true&lines=INTRODU%C3%87%C3%83O+AO+DESAFIO;" alt="Typing SVG")/>
+
+  ### ![img Introdução ao desafio](https://readme-typing-svg.herokuapp.com/?font=Comic+Neue&size=25&duration=3000&pause=250&color=2B94C3&center=true&vCenter=true&lines=INTRODU%C3%87%C3%83O+AO+DESAFIO;)
+
 </div>
 
-#
+---
 
 Parte 1: Automação de Testes no Site " https://automationexercise.com/
 
@@ -69,13 +71,15 @@ do site.
     a. Envie o texto junto com o código no GitHub ou em um documento
 separado.
 
-##
+---
 
 <div align="center" style="text-align: center;">
-    <img src="https://readme-typing-svg.herokuapp.com/?font=Comic+Neue&size=25&duration=3000&pause=250&color=2B94C3&center=true&vCenter=true&lines=REQUISITOS;" alt="Typing SVG")/>
+
+  ### ![img Requisitos](https://readme-typing-svg.herokuapp.com/?font=Comic+Neue&size=25&duration=3000&pause=250&color=2B94C3&center=true&vCenter=true&lines=REQUISITOS;)
+
 </div>
 
-#
+---
 
 Para poderes testar as funcionalidades do desafio, é necessário ter alguns itens instalados.
 
@@ -85,13 +89,15 @@ Basta acessar o site oficial e baixar a versão mais recente, neste caso, estou 
 
 ![img site Node](./Apresentacao/1-Node.js.png)
 
-##
+---
 
 <div align="center" style="text-align: center;">
-    <img src="https://readme-typing-svg.herokuapp.com/?font=Comic+Neue&size=25&duration=3000&pause=250&color=2B94C3&center=true&vCenter=true&lines=RODANDO+A+APLICA%C3%87%C3%83O;" alt="Typing SVG")/>
+
+  ### ![img Rodando a aplicação](https://readme-typing-svg.herokuapp.com/?font=Comic+Neue&size=25&duration=3000&pause=250&color=2B94C3&center=true&vCenter=true&lines=RODANDO+A+APLICA%C3%87%C3%83O;)
+
 </div>
 
-#
+---
 
 Após isso, use o terminal e execute o comando nessa mesma pasta ([04-Automacao_de_Testes_e_IA](./04-Automacao_de_Testes_e_IA)):
 
@@ -119,13 +125,15 @@ A página principal do projeto deve abrir e já aparecer a Spec parte01.cy.js, c
 
 ![img Rodando testes](./Apresentacao/5-Rodando_testes.png)
 
-##
+---
 
 <div align="center" style="text-align: center;">
-    <img src="https://readme-typing-svg.herokuapp.com/?font=Comic+Neue&size=25&duration=3000&pause=250&color=2B94C3&center=true&vCenter=true&lines=RESOLU%C3%87%C3%83O+DO+DESAFIO;" alt="Typing SVG")/>
+
+  ### ![img Resolução do desafio](https://readme-typing-svg.herokuapp.com/?font=Comic+Neue&size=25&duration=3000&pause=250&color=2B94C3&center=true&vCenter=true&lines=RESOLU%C3%87%C3%83O+DO+DESAFIO;)
+
 </div>
 
-#
+---
 
 > * Utilize o site de e-commerce para testes: https://automationexercise.com/.
 

@@ -1,6 +1,10 @@
-# ![img Titulo](https://capsule-render.vercel.app/api?type=waving&height=250&&color=0:00FFF0,100:a82da8&text=Automação%20de%20Testes&textBg=false&fontColor=FFFFFF&fontSize=50&animation=fadeIn)
+<div align="center" style="text-align: center;">
 
-## 🔍 Sobre
+  # ![img Titulo](https://capsule-render.vercel.app/api?type=waving&height=250&&color=0:00FFF0,100:a82da8&text=Automação%20de%20Testes&textBg=false&fontColor=FFFFFF&fontSize=50&animation=fadeIn)
+
+</div>
+
+  ## 🔍 Sobre
 
 > A automação de processos é o uso da tecnologia e da integração de dados e sistemas para automatizar tarefas que antes eram desempenhadas manualmente, de forma a aumentar a produtividade, a eficiência e a geração de valor. 
 
@@ -12,13 +16,17 @@
 
 | [O que é automação de testes?](https://www.atlassian.com/br/devops/devops-tools/test-automation) - Atlassian.com
 
-## 📘 Aula
+<br></br>
+
+  ## 📘 Aula
 
 Nesta aula, aprendemos a importancia que automação tem na rotina de cada desenvolvedor. Como a ultilização de ferramentas que auxiliam no processo automatizado de criação, validação e adaptação dos testes, trazem benefícios em questão de tempo, análise de casos e outros fatores.
 
 Foi nos dado um [desafio](./IAAutomacao_20241022195733.pdf) de navegar pelo site [AutomationExercise](https://automationexercise.com/) e usando ferramenta inteligência artificial (nessa caso, chatGPT) nos auxiliar na resolução de problemas e criação de casos de teste.
 
-## 📝 Exercício proposto
+<br></br>
+
+  ## 📝 Exercício proposto
 
 <div align="center" style="text-align: center;">
 
@@ -71,6 +79,8 @@ do site.
     a. Envie o texto junto com o código no GitHub ou em um documento
 separado.
 
+<br></br>
+
 ---
 
 <div align="center" style="text-align: center;">
@@ -84,10 +94,20 @@ separado.
 Para poderes testar as funcionalidades do desafio, é necessário ter alguns itens instalados.
 
 * [Node.js](https://nodejs.org/pt)
+* [Cypress](https://www.cypress.io/)
 
-Basta acessar o site oficial e baixar a versão mais recente, neste caso, estou usando a versão 20.18.0.
+
+Para instalar o Node, basta acessar o site oficial e baixar a versão mais recente, neste caso, estou usando a versão 20.18.0.
 
 ![img site Node](./Apresentacao/1-Node.js.png)
+
+Após ter o Node instalado, abra o terminal do seu sistema operacional e rode a seguinte linha de comando:
+
+~~~
+npm install cypress --save-dev
+~~~
+
+<br></br>
 
 ---
 
@@ -99,13 +119,7 @@ Basta acessar o site oficial e baixar a versão mais recente, neste caso, estou 
 
 ---
 
-Após isso, use o terminal e execute o comando nessa mesma pasta ([04-Automacao_de_Testes_e_IA](./04-Automacao_de_Testes_e_IA)):
-
-~~~
-npm install
-~~~
-
-E depois:
+Para rodar os testes, use o terminal e execute o comando nessa mesma pasta ([04-Automacao_de_Testes_e_IA](./04-Automacao_de_Testes_e_IA)):
 
 ~~~
 npx cypress open
@@ -124,6 +138,9 @@ A página principal do projeto deve abrir e já aparecer a Spec parte01.cy.js, c
 ![img Specs](./Apresentacao/4-Pagina_principa_cypress.png)
 
 ![img Rodando testes](./Apresentacao/5-Rodando_testes.png)
+
+<br></br>
+
 
 ---
 
@@ -243,7 +260,9 @@ Sempre que eu terminava um trecho de código para testar, pedia para avaliar com
 Ao questioná-lo sobre esses pontos, ele sugeriu outras medidas não elencadas no desafio, como testes no próprio filtro do site aceitando caractere especiais ou números, teste de permanencia de sessão, testes de campos obrigatório durante os passos do checkout, teste de carga e desempenho no carrinho de compras, etc.
 Então quanto mais questionamentos eu fazia a ele, mais opções que não tinha planejado ele iria me mostrando. Deixando a minha lista de testes mais robusta e melhorando o meu pensamento crítico sobre a usabilidade e segurança do site.
 
-## ✔ Conclusões
+<br></br>
+
+  ## ✔ Conclusões
 
 Analisando os desafios propostos, com o auxílio da IA, ficou bem mais fácil desenvolver as soluções e poupar tempo em questões mais simples, identificar possíveis vulnerabilidades desapercebidas e criar sugestões de melhorias.
 
